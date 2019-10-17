@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.item {
+    text-align: 200px;
+    border-radius: 100px;
+    height: 240px;
+    width: 240px;
+}
+
+.container:hover{
+    filter: greyscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 0.3s, ease;
+    filter: grayscale(1);
+    transition: background-size 0.3s, ease;
+}
+
+body {
+    text-align: center;
+}
